@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Praxe Dashboard</title>
+
+    <!-- font style -->
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&display=swap");
+    </style>
+
+    <!--    css sheet import -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <input type="checkbox" name="" id="nav-toggle" />
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <img src="/assets/praxe-white-logo-edi.png" alt="logo" srcset="" width="200px;" />
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active">
+                        <i class="fas fa-igloo"> </i> <span> Dashboard </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-user-friends"></i>
+                        <span> Class </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-clipboard-list"> </i>
+                        <span> Subjects </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>
+                <label for="nav-toggle">
+                    <i class="fas fa-bars"> </i>
+                    <span> Dashboard </span>
+                </label>
+            </h1>
+
+            <div class="search-wrapper">
+                <span class="fas fa-search"> </span>
+                <input type="search" name="search" placeholder="Type Your Search" id="" />
+            </div>
+
+            <div class="user-wrapper">
+                <img src="/assets/young-man.png" alt="" srcset="" />
+                <div>
+                    <h4>Anjum Kumawat</h4>
+                    <small style="color: #989898"> Super admin </small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h2>535</h2>
+                        <span> Total</span>
+                    </div>
+                    <div class="cards-icon">
+                        <img src="/assets/total.png" alt="" srcset="">
+                        
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h2>853</h2>
+                        <span> Today </span>
+                    </div>
+                    <div class="cards-icon">
+                        <img src="/assets/today.png" alt="" srcset="">
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h2>693</h2>
+                        <span> Yesterday </span>
+                    </div>
+                    <div class="cards-icon">
+                        <img src="/assets/yesterday.png" alt="" srcset="">
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h2>100</h2>
+                        <span> Errors </span>
+                    </div>
+                    <div class="cards-icon">
+                        <img src="/assets/errors.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------- starting of the section contains the Question and its Details ---------------->
+            <div class="question-details">
+                <div class="search-bar">
+                    <div class="bar-search">
+                        <span class="fas fa-search"> </span>
+                        <input type="search" name="search" placeholder="Type Your Search" id="" />
+                    </div>
+                </div>
+
+                <div class="question-detail-sect">
+                    <div class="projects">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table width="100%" id="table-setting-one">
+                                        <thead>
+                                            <tr>
+                                                <td style="padding-left: 0.5rem">Author</td>
+                                                <td>Question</td>
+                                                <td>Question Description</td>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Teacher one</td>
+                                                <td>Question one</td>
+                                                <td>Lorem ipsum dolor sit, amet consectetur</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Teacher two</td>
+                                                <td>Question two</td>
+                                                <td>Lorem ipsum dolor sit, amet consectetur</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Teacher three</td>
+                                                <td>Question three</td>
+                                                <td>Lorem ipsum dolor sit, amet consectetur</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Teacher four</td>
+                                                <td>Question four</td>
+                                                <td>Lorem ipsum dolor sit, amet consectetur</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Teacher five</td>
+                                                <td>Question five</td>
+                                                <td>Lorem ipsum dolor sit, amet consectetur</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="customers">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-reponsive">
+                                    <table width="100%">
+                                        <thead>
+                                            <tr>
+                                                <td>Comments</td>
+                                                <td>Date</td>
+                                                <td>Status</td>
+                                                <td>Action</td>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Comment one</td>
+                                                <td>Date 1</td>
+                                                <td>Status</td>
+                                                <td>Action 1</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Comment two</td>
+                                                <td>Date 1</td>
+                                                <td>Status</td>
+                                                <td>Action 2</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Comment three</td>
+                                                <td>Date 1</td>
+                                                <td>Status</td>
+                                                <td>Action 3</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Comment four</td>
+                                                <td>Date 1</td>
+                                                <td>Status</td>
+                                                <td>Action 4</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Comment five</td>
+                                                <td>Date 1</td>
+                                                <td>Status</td>
+                                                <td>Action 5</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!------------------------------- starting of the section contains the Question and its Details ---------------->
+        </main>
+    </div>
+</body>
+
+</html>
